@@ -7,8 +7,8 @@ public class PlayerControl : MonoBehaviour
     public bool isGrounded;
     //public bool isIdel;
 
-    private float speed;
-    private float wSpeed = 0.05f;
+    public float speed;
+    public float wSpeed = 0.05f;
     private float rSpeed = 0.1f;
     private float wSpeedmax = 0.05f;
 
@@ -16,7 +16,6 @@ public class PlayerControl : MonoBehaviour
     public float jumpHeight = 3.0f;
 
     Rigidbody rd;
-    Animator anim;
     CapsuleCollider colSize;
 
 
@@ -24,7 +23,6 @@ public class PlayerControl : MonoBehaviour
     void Start()
     {
         rd =      GetComponent<Rigidbody>();
-        anim =    GetComponent<Animator>();
         colSize = GetComponent<CapsuleCollider>();
         isGrounded = true;
 
@@ -42,7 +40,6 @@ public class PlayerControl : MonoBehaviour
         if ( Input.GetKey(KeyCode.Space) && isGrounded == true )
         {
             rd.AddForce(0, jumpHeight, 0);
-            anim.SetTrigger("isJumping");
             isGrounded = false;
         }
 
@@ -52,50 +49,10 @@ public class PlayerControl : MonoBehaviour
         {
             speed = rSpeed;
             //Running Controlls
-
-            if ( Input.GetKey(KeyCode.W) )
-            {
-                anim.SetBool("isWalking", false);
-                anim.SetBool("isIdel", false);
-                anim.SetBool("isRunning", true);
-            }
-            else if (Input.GetKey(KeyCode.S))
-            {
-                anim.SetBool("isWalking", false);
-                anim.SetBool("isIdel", false);
-                anim.SetBool("isRunning", true);
-            }
-            else
-            {
-                anim.SetBool("isWalking", false);
-                anim.SetBool("isIdel", true);
-                anim.SetBool("isRunning", false);
-
-            }
         } else
         {
             speed = wSpeed;
             //Running Controlls
-
-            if (Input.GetKey(KeyCode.W))
-            {
-                anim.SetBool("isWalking", false);
-                anim.SetBool("isIdel", false);
-                anim.SetBool("isRunning", true);
-            }
-            else if (Input.GetKey(KeyCode.S))
-            {
-                anim.SetBool("isWalking", false);
-                anim.SetBool("isIdel", false);
-                anim.SetBool("isRunning", true);
-            }
-            else
-            {
-                anim.SetBool("isWalking", false);
-                anim.SetBool("isIdel", true);
-                anim.SetBool("isRunning", false);
-
-            }
 
         }
 
