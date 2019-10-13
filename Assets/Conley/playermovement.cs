@@ -9,7 +9,6 @@ using System.Collections;
 
 public class playermovement : MonoBehaviour
 {
-    CharacterController characterController;
 
     public float speed = 6.0f;
     public float jumpSpeed = 8.0f;
@@ -19,13 +18,10 @@ public class playermovement : MonoBehaviour
 
     void Start()
     {
-        characterController = GetComponent<CharacterController>();
     }
 
     void Update()
     {
-        if (characterController.isGrounded)
-        {
             // We are grounded, so recalculate
             // move direction directly from axes
 
