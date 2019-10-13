@@ -15,6 +15,11 @@
 
     void Update()
     {
+        if (Input.GetKey("joystick button 0"))
+        {
+            Fire();
+
+        }
         if (Input.GetKeyDown("space"))
         {
             Fire();
