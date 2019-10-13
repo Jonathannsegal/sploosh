@@ -5737,7 +5737,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499235639}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 9.47, z: -12.39}
+  m_LocalPosition: {x: 0, y: 9, z: -12.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1062190228}
@@ -10972,6 +10972,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 17920_Clown_Fish_baby_V1
       objectReference: {fileID: 0}
+    - target: {fileID: -6823575577993828040, guid: 81465d31e473d4b43bbb9cd2146c5600,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 579eeeb938c249649a335dd0fc6f8bde, type: 2}
     - target: {fileID: -4216859302048453862, guid: 81465d31e473d4b43bbb9cd2146c5600,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11027,11 +11032,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -6823575577993828040, guid: 81465d31e473d4b43bbb9cd2146c5600,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 579eeeb938c249649a335dd0fc6f8bde, type: 2}
     - target: {fileID: -1701039491860482738, guid: 81465d31e473d4b43bbb9cd2146c5600,
         type: 3}
       propertyPath: m_LocalRotation.y
@@ -13541,7 +13541,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -13551,7 +13551,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 3
       minScalar: 3
       maxCurve:
         serializedVersion: 2
@@ -14182,7 +14182,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 3
+      value: 2
       mode: 0
       spread: 0
       speed:
@@ -14756,7 +14756,7 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 5397
+        atime1: 2891
         atime2: 31804
         atime3: 65535
         atime4: 0
