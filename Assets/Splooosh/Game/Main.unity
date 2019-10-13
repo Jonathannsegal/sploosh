@@ -2826,8 +2826,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b922be872b128be4389d20a80deca1ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  city: 
-  input: {fileID: 0}
 --- !u!4 &1943841190
 Transform:
   m_ObjectHideFlags: 0

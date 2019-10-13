@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Mapbox/Examples/1_DataExplorer/Main.unity
-    guid: 1e6ccedcbbdb18c458efe05e19b065d0
+    path: Assets/Splooosh/Game/Main.unity
+    guid: 1614edf62d480454c9efc5f9d5444515
   - enabled: 1
-    path: Assets/Mapbox/Examples/1_DataExplorer/DataExplorer.unity
-    guid: 028ca2c46390a4409bcf0fae61aef3b3
+    path: Assets/Splooosh/Game/Game.unity
+    guid: d70697f21b54a4647b79a546568efd64
   m_configObjects: {}
