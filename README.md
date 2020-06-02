@@ -4,7 +4,7 @@
 [![Unity Version: 2019.2.9f1](https://img.shields.io/badge/Unity%20Version%3A-2019.2.9f1-green)](https://unity3d.com)
 [![HitCount](http://hits.dwyl.com/jonathannsegal/sploosh.svg)](http://hits.dwyl.com/jonathannsegal/sploosh)
 
-![Gameplay](https://media.giphy.com/media/jn20JEiByPMrXG80CP/giphy-downsized-large.gif)
+![Gameplay](https://drive.google.com/uc?id=1cGh5lKdzxvHSo50PgsfrMft8T-cD-DLG)
 
 <a id="raw-url" href="https://drive.google.com/u/0/uc?export=download&confirm=Jq3B&id=1iEExPSas4td9tZZaRAXCnb_01Il5pYn4"><h1>Download ZIP</h1></a>
 
