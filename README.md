@@ -1,5 +1,7 @@
 # Splooosh 🐠 
 
+> **Archived:** HackUIowa 2019 project preserved for reference; not under active development.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) 
 [![Unity Version: 2019.2.9f1](https://img.shields.io/badge/Unity%20Version%3A-2019.2.9f1-green)](https://unity3d.com)
 [![HitCount](http://hits.dwyl.com/jonathannsegal/sploosh.svg)](http://hits.dwyl.com/jonathannsegal/sploosh)
